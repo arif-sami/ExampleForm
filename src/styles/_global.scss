@@ -1,0 +1,13 @@
+@use 'variables';
+
+body {
+  background-color: variables.$bg-color;
+  font-size: 1.2rem;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+}
